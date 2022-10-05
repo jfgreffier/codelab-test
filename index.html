@@ -1,0 +1,90 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>CodeLab test</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="codelab-test"
+                  title="CodeLab test"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Step 1" duration="2">
+        <p>Are you trying to create easy to use, visually appealing content for the tech community? This CodeLab will show you how to quickly create your own Google CodeLab just like the one you&#39;re using right now. When creating a Codelab you have two authoring options:</p>
+<ol type="1">
+<li>Using a Google Doc</li>
+<li>Using a markdown file</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Code embedding" duration="3">
+        <p>No language set</p>
+<pre><code>function fibLike(one, two, length) {
+  const result = [one, two];
+  for (let i = 2; i &lt; length; i++) {
+    result.push(result[result.length - 1] + result[result.length - 2]);
+  }
+  return result;
+}
+
+</code></pre>
+<p>JavaScript (js)</p>
+<pre><code language="language-js" class="language-js">function fibLike(one, two, length) {
+  const result = [one, two];
+  for (let i = 2; i &lt; length; i++) {
+    result.push(result[result.length - 1] + result[result.length - 2]);
+  }
+  return result;
+}
+
+</code></pre>
+<p>iframe </p>
+<iframe class="embedded-iframe" src="https://codepen.io/tzoght/embed/yRNZaP"></iframe>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Overview" duration="10">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="How to generate" duration="1">
+        <pre><code>claat export codelab.md
+serve ./codelab-test
+</code></pre>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>

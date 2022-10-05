@@ -1,0 +1,17 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-10-05T21:27:08Z",
+  "id": "codelab-test",
+  "duration": 16,
+  "title": "CodeLab test",
+  "summary": "",
+  "source": "codelab.md",
+  "theme": "",
+  "status": null,
+  "category": null,
+  "tags": [],
+  "url": "codelab-test"
+}
